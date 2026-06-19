@@ -1,4 +1,7 @@
-p{
-    color: red;
-    font-size: 50px;
+div{
+    color: red; /*write the color name*/
+    color: rgb(255 0 0);/*use rgb*/
+    color: #ff0000;/*use hexadecimal of color*/
+    background-image: url("/CSS/IMGL2254.jpg");
+    background-repeat: repeat;
 }
