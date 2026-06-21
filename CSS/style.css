@@ -1,13 +1,8 @@
 div{
-    color: red; /*write the color name*/
-    color: rgb(255 0 0);/*use rgb*/
-    color: #ff0000;/*use hexadecimal of color*/
-    background-image: url("/CSS/IMGL2254.jpg");
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-attachment: fixed;
-    background-size: contain;
-    /*background-size: (100% 100%);*/
-    /*background-size: cover;*/
-    background-position: center bottom;
+ /*padding: 20px it apply 20pxl in all direction*/
+ padding: 20px 10px 10px 25px/*it apply top right bottom left*/
+ /*padding-right: 20px it apply 20pxl in right*/
+ /*padding-left: 20px it apply 20pxl in left*/
+ /*padding-top: 20px it apply 20pxl in top*/
+ /*padding-bottom: 20px it apply 20pxl in bottom*/
 }
