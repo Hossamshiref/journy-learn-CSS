@@ -4,4 +4,10 @@ div{
     color: #ff0000;/*use hexadecimal of color*/
     background-image: url("/CSS/IMGL2254.jpg");
     background-repeat: repeat;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: contain;
+    /*background-size: (100% 100%);*/
+    /*background-size: cover;*/
+    background-position: center bottom;
 }
