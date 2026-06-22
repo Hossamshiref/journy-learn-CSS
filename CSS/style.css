@@ -1,6 +1,6 @@
 div{
-/*margin:10px;*/
-/*margin:10%;*/
-width: 70%;
-margin: auto;
+    border: 10px solid green;
+    /*the border is better than outline*/
+    /*the outline is out the box ,but border is inbox*/
+    outline: 10px green solid ;
 }
