@@ -1,8 +1,6 @@
 div{
- /*padding: 20px it apply 20pxl in all direction*/
- padding: 20px 10px 10px 25px/*it apply top right bottom left*/
- /*padding-right: 20px it apply 20pxl in right*/
- /*padding-left: 20px it apply 20pxl in left*/
- /*padding-top: 20px it apply 20pxl in top*/
- /*padding-bottom: 20px it apply 20pxl in bottom*/
+/*margin:10px;*/
+/*margin:10%;*/
+width: 70%;
+margin: auto;
 }
