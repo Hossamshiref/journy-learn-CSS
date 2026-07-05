@@ -1,6 +1,6 @@
 div{
   background-color: bisque;
-  text-align: center;
-  direction: ltr;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
