@@ -1,10 +1,17 @@
+/*
+CSS units.
+1-px
+2-em=>time its parent
+3-rem=>root time html*
+4-percentage=>%
+5-vh=>view port height
+6-vw=>view port width
+*/
 div{
-  background-color: antiquewhite;
-  text-align: center;
-  /*font-family:Arial, Helvetica, sans-serif;*/
-  font-family: "playfair display" , serif;
-  font-size: 70px;
-  padding: 25px;
-  border: 10px black solid;
-  margin: 20px;
+  /*font-size: 20px;*/
+  /*font-size: 2em;*/
+  /*font-size: 5rem;*/
+  /*font-size: 15%;*/
+  /*font-size: 5vh;*/
+  font-size: 10vw;
 }
