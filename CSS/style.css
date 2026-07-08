@@ -1,17 +1,14 @@
-/*
-CSS units.
-1-px
-2-em=>time its parent
-3-rem=>root time html*
-4-percentage=>%
-5-vh=>view port height
-6-vw=>view port width
-*/
-div{
-  /*font-size: 20px;*/
-  /*font-size: 2em;*/
-  /*font-size: 5rem;*/
-  /*font-size: 15%;*/
-  /*font-size: 5vh;*/
-  font-size: 10vw;
+.t1, .t2, .t3, .t4 {
+  display: block;
+  max-width: 400px;
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.t4 {
+  max-height: 60px;  
+  overflow: hidden;
 }
