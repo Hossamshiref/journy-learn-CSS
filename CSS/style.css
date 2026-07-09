@@ -1,7 +1,12 @@
-div{
-  color: black;
-  text-shadow: 
-    0.5px 0.5px  rgb(253, 111, 101),
-    1px 1px  rgb(92, 171, 235, 0.938),
-    1.5px 1.5px  rgb(240, 15, 240);
+body{
+  text-align: center;
+}
+.one{
+  text-transform: uppercase;
+}
+.two{
+  text-transform: capitalize;
+}
+.three{
+  text-transform: lowercase;
 }
