@@ -1,16 +1,10 @@
-.first,.second,.third{
-  width: fit-content;
-  max-width: 400px;
-  color: black;
-  padding: 15px;
-  margin: 20px;
-  background-color: #eee;
-}
-
-.second,.third{
-  overflow: hidden;
-  white-space: nowrap;
-}
-.third{
-  text-overflow: ellipsis;
+a{
+  text-align: center;
+  color: white;
+  background-color: rgb(8, 121, 111);
+  padding: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 4px;
 }
