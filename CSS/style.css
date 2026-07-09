@@ -1,12 +1,16 @@
-body{
-  text-align: center;
+.first,.second,.third{
+  width: fit-content;
+  max-width: 400px;
+  color: black;
+  padding: 15px;
+  margin: 20px;
+  background-color: #eee;
 }
-.one{
-  text-transform: uppercase;
+
+.second,.third{
+  overflow: hidden;
+  white-space: nowrap;
 }
-.two{
-  text-transform: capitalize;
-}
-.three{
-  text-transform: lowercase;
+.third{
+  text-overflow: ellipsis;
 }
