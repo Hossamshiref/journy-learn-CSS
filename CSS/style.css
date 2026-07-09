@@ -1,14 +1,7 @@
-.t1, .t2, .t3, .t4 {
-  display: block;
-  max-width: 400px;
-  background-color: brown;
-  color: white;
-  padding: 10px 20px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.t4 {
-  max-height: 60px;  
-  overflow: hidden;
+div{
+  color: black;
+  text-shadow: 
+    0.5px 0.5px  rgb(253, 111, 101),
+    1px 1px  rgb(92, 171, 235, 0.938),
+    1.5px 1.5px  rgb(240, 15, 240);
 }
