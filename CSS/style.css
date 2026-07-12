@@ -1,39 +1,24 @@
-/*
-positions
-1-static=>(its the defualt value)
-2-relative=>(its change relative to itself)
-3-absolute=>(its change relative to it's parent)
-4-fixed=>(its has a fixed place don't change in scroll)
-5-sticky=>(its has a place sticky on it in scroll)
-*/
-body{
-  min-height: 4000px;
+div{
+width: 70px;
+position: absolute;
+padding: 4px;
+text-align: center;
+height: 30px;
 }
 
 .one {
   background-color: red;
-  width: 80%;
-  height: 100px;
-  position: relative;
+  z-index: 2;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .two {
   background-color: blue;
-  width: 40px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  z-index: 3;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .three{
   background-color: green;
-  width: 40px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-.four{
-  background-color: #eee;
-  width: 40px;
-  position: sticky;
-  top: 5px;
-  left: 10px;
+  z-index: 1;
 }
