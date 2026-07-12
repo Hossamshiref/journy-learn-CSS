@@ -1,13 +1,7 @@
-
-.test div{
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: #eee;
-  text-align: center;
-  width: calc((100% - 60px) /5);
-  margin-left: 10px;
-  float: left;
+.one {
+  background-color: red;
+  opacity: 0.3;
 }
-.clear{
-  clear: both;
+.two {
+  background-color: rgb(255 0 0 /0.3);
 }
