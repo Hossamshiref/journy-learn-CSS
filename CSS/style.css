@@ -1,15 +1,11 @@
-.test{
-  background-color: red;
-  padding: 10px;
-  /*overflow: hidden;*/
-}
+
 .test div{
   padding-bottom: 10px;
   padding-top: 10px;
   background-color: #eee;
   text-align: center;
-  /*display: inline-block;*/
-  width: 25%;
+  width: calc((100% - 60px) /5);
+  margin-left: 10px;
   float: left;
 }
 .clear{
