@@ -1,19 +1,30 @@
-table{
-  background-color: #eee;
-  padding: 5px;
-  min-width: 90%;
-  min-height: 350px;
-}
-
-td{
-  border: 1px solid gray;
-  border-spacing: 3px;
-  padding: 10px;
-}
-
-table thead td{
-  background-color: green;
-  text-align: center;
+.main{
+  width: 800px;
+  background-color: rgb(243, 242, 242);
   font-weight: bold;
-  color:#eee;
+}
+.one,.two,.three,.four{
+  margin-left: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dad8d8;
+  float: left;
+  text-align: center;
+}
+.one{
+  width: calc(100% - 30px);
+}
+.two{
+  width: calc((100% - 45px) / 2);
+}
+.three{
+  width: calc((100% - 60px) / 3);
+}
+.four{
+  width: calc((100% - 75px) / 4);
+  margin-bottom: 15px;
+}
+.clear{
+  clear: both;
 }
