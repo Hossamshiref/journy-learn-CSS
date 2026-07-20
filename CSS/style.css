@@ -1,32 +1,14 @@
-.one{
+.one::first-letter{
+  font-size: 70px;
+  font-weight: bold;
   background-color: red;
-  color: #eee;
-}
-.two{
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-}
-a{
-  text-decoration: none;
-}
-a:visited{
   color: black;
 }
-.in{
-  border-radius: 5px;
+.two::first-line{
+  color: blue;
+  font-weight: bold;
 }
-.in:focus{
-  border-color: red;
-  outline: none;
-}
-#test:checked + label{
-  color: green;
-}
-:empty{
-  border: 2px solid black;
-  border-radius: 5px;
-}
-a:hover{
-  color: red;
+.three::selection{
+  background-color: black;
+  color: yellow;
 }
