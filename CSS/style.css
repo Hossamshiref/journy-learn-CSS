@@ -1,23 +1,32 @@
-.header {
-    background-color: #eee;
-    list-style: none;
-    margin: 15px;
-    border-bottom: 1px solid #eee;
-    padding: 5px;
+.one{
+  background-color: red;
+  color: #eee;
 }
-.sub {
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
+.two{
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
 }
-.number{
-  list-style: decimal;
+a{
+  text-decoration: none;
 }
-.xii{
-  list-style: upper-roman;
+a:visited{
+  color: black;
 }
-.unorder{
-  list-style: circle;
-  list-style-position: inside;
-  padding-left: 2px;
+.in{
+  border-radius: 5px;
+}
+.in:focus{
+  border-color: red;
+  outline: none;
+}
+#test:checked + label{
+  color: green;
+}
+:empty{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+a:hover{
+  color: red;
 }
