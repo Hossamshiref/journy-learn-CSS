@@ -1,8 +1,10 @@
+/*box-shadow syntax
+box-shadow: H-shadow V-shadow blur spread color inset 
+*/
 div{
+  background-color: rgb(245, 35, 35);
+  margin: 25px auto;
   width: 100px;
   height: 100px;
-  margin: 20px auto;
-  background-color: brown;
-  border-radius: 50px;
-  outline: 2px solid red;
+  box-shadow: 5px 7px 10px 1px #9e5858;
 }
