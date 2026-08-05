@@ -1,6 +1,7 @@
 .parent{
   margin-bottom: 30px;
   overflow: hidden;
+  counter-increment: counter;
 }
 .user{
   height: 80px;
@@ -21,21 +22,49 @@
   padding-left: 10px;
 }
 .one::after{
-  content: "";
+  content: counter(counter);
+  text-align: center;
   position: absolute;
   background-color: aqua;
-  width: 10px;
-  height: 100%;
-  top: 0;
+  width: 20px;
+  height: 30px;
+  top: 15px;
   right: -15px;
 }
-.one::before{
+/*.one::before{
   content: "";
   border-width: 20px;
   border-style: solid;
   border-color: transparent aqua transparent transparent;
   left: -45px;
   width: 0;
+  position: absolute;
+  height: 0;
+  top: 50%;
+  margin-top: -20px;
+}*/
+.one:hover::before{
+  content: attr(anything);
+  display:  block;
+}
+.one::before{
+  display: none;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  position: relative;
+  margin-bottom: 30px;
+  border-left: 8px;
+}
+ul li::before{
+  content: "";
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent aqua transparent transparent;
+  left: -45px;
+  width: 0px;
   position: absolute;
   height: 0;
   top: 50%;
