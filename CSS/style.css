@@ -1,12 +1,25 @@
 div{
-  width: 300px;
+  width: 95%;
   height: 60px;
   color: black;
   text-align: center;
   background-color: #eee;
+  margin: 20px auto;
   padding-top: 30px;
-  margin: 20px 50%;
+  position: relative;
+  font-size: 40px;
 }
-div:empty{
+div::before{
+  content: "1";
+  position: absolute;
+  height: 50px;
+  width: 30px;
   background-color: red;
+  color: white;
+  margin-top: -10px;
+  left: -15px;
+}
+div::first-letter{
+  display: none;
+  font-size: 0;
 }
