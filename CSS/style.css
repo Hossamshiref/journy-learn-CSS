@@ -1,10 +1,25 @@
-/*box-shadow syntax
-box-shadow: H-shadow V-shadow blur spread color inset 
-*/
-div{
-  background-color: rgb(245, 35, 35);
-  margin: 25px auto;
-  width: 100px;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /*-o-box-sizing: border-box;
+  -ms-box-sizing: border-box;*/
+  box-sizing: border-box;
+}
+.parent{
+  overflow: hidden;
+  width: 700px;
   height: 100px;
-  box-shadow: 5px 7px 10px 1px #9e5858;
+  padding: 10px;
+  margin: 25px auto;
+  background-color: #ddd;
+}
+.one{
+  width: 340px;
+  float: left;
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  border: 3px solid red;
+  height: 75px;
+  /*box-sizing: border-box*/
 }
