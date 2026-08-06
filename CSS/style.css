@@ -1,25 +1,12 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  /*-o-box-sizing: border-box;
-  -ms-box-sizing: border-box;*/
-  box-sizing: border-box;
-}
-.parent{
-  overflow: hidden;
-  width: 700px;
-  height: 100px;
-  padding: 10px;
-  margin: 25px auto;
-  background-color: #ddd;
-}
-.one{
-  width: 340px;
-  float: left;
-  background-color: #eee;
+div{
+  width: 300px;
+  height: 60px;
+  color: black;
   text-align: center;
-  padding: 15px;
-  border: 3px solid red;
-  height: 75px;
-  /*box-sizing: border-box*/
+  background-color: #eee;
+  padding-top: 30px;
+  margin: 20px 50%;
+}
+div:empty{
+  background-color: red;
 }
