@@ -1,20 +1,35 @@
-:root{
-  --maincolor: green;
-  /*--mainpadding: 10px;*/
+* {
+  box-sizing: border-box;
 }
-.one{
+.float{
+  width: 900px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 25px auto;
+  background-color: #eee;
+}
+.float div{
+  width: 25%;
+  float: left;
+  background-color: red;
   color: white;
-  background-color: var(--maincolor, black);
-  padding: var(--mainpadding, 20px);
+  padding: 25px;
+  text-align: center;
 }
-.two{
-  color: black;
-  border: 2px  solid var(--maincolor, black);
-  padding: var(--mainpadding, 20px);
-  margin: var(--mainpadding, 20px);
+.flex{
+  width: 900px;
+  padding: 15px;
+  margin: 25px auto;
+  background-color: #eee;
+  display: flex;
+  /*flex-direction: row;
+  flex-wrap: nowrap;*/
+  flex-flow: row-reverse nowrap;
 }
-.three{
-  padding: var(--mainpadding, 20px);
+.flex div{
+  width: 25%;
+  background-color: red;
   color: white;
-  background-color: var(--maincolor, black);
+  padding: 25px;
+  text-align: center;
 }
