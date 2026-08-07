@@ -2,25 +2,20 @@
   box-sizing: border-box;
 }
 .flex{
-  width: 900px;
-  height: 400px;
+  width: 700px;
+  height: 100px;
   padding: 15px;
   margin: 25px auto;
   background-color: #eee;
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  /*align-content: stretch;
-  align-content: flex-start;
-  align-content: flex-end;
-  align-content: space-around;
-  align-content: space-between;
-  align-content: space-evenly;*/ 
 }
 .flex div{
   width: 25%;
   background-color: red;
   color: white;
   padding: 25px;
+  margin-right: 5px;
   text-align: center;
+  flex-grow: 0;
+  flex-shrink: 1;
 }
