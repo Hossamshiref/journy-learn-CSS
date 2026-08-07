@@ -3,6 +3,7 @@
 }
 .float{
   width: 900px;
+  height: 200px;
   overflow: hidden;
   padding: 15px;
   margin: 25px auto;
@@ -18,24 +19,27 @@
 }
 .flex{
   width: 900px;
+  height: 200px;
   padding: 15px;
   margin: 25px auto;
   background-color: #eee;
   display: flex;
-  /*flex-direction: row;
-  flex-wrap: nowrap;*/
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  /*justify-content: flex-end;
-  justify-content: center;*/
-  justify-content: space-between;
-  /*justify-content: space-around;
-  justify-content: space-evenly;*/
+  align-items: stretch;
 }
 .flex div{
-  width: 24%;
+  width: 25%;
   background-color: red;
   color: white;
   padding: 25px;
   text-align: center;
+}
+.center{
+  background-color: red;
+  color: white;
+  margin: 15px auto;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
