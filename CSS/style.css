@@ -1,32 +1,24 @@
 *{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.main{
-  background-color: #eee;
-  margin: 80px auto;
-  text-align: center;
-  height: 300px;
-  width: 500px;
-  padding: 25px 50px;
-  transition-duration: 0.5s;
-  font-size: 22.5px;
-}
-.trans{
-  background-color: rgb(214, 214, 214);
-  margin: 20px 0;
+div{
   width: 400px;
-  height: 70px;
-  padding: 30px;
-  transition-delay: 0.5s;
-  transition-duration: 0.5s;
-  font-size: 19px;
+  height: 60px;
+  font-size: 20px !important;
+  font-weight: bold;
+  background-color: #eee !important;
+  color: transparent !important;
+  margin: 25px auto;
+  text-align: center;
+  border: none !important;
+  position: relative;
 }
-
-.main:hover{
-  margin-top: 20px;
-.trans{
-  margin-top: 60px;
-}
+div::before{
+  content: "Elzero";
+  position: absolute;
+  color: black;
+  top:0;
+  font-size: inherit;
+  padding: inherit;
+  font-weight: inherit;
 }
