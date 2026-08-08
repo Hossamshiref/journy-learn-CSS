@@ -1,24 +1,11 @@
-*{
-  box-sizing: border-box;
-}
-div{
-  width: 400px;
-  height: 60px;
-  font-size: 20px !important;
-  font-weight: bold;
-  background-color: #eee !important;
-  color: transparent !important;
-  margin: 25px auto;
-  text-align: center;
-  border: none !important;
-  position: relative;
-}
-div::before{
-  content: "Elzero";
-  position: absolute;
-  color: black;
-  top:0;
-  font-size: inherit;
-  padding: inherit;
-  font-weight: inherit;
+/*:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}*/
+
+div {
+  color: var(--mainColor, red);
+  margin: var(--mainPadding, 12px);
+  padding: var(--mainPadding, 12px);
+  border: 2px solid var(--mainColor, black);
 }
