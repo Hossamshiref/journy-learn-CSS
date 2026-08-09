@@ -1,11 +1,25 @@
-/*:root {
-  --mainColor: #009688;
-  --mainPadding: 10px;
-}*/
+*{
+  box-sizing: border-box;
+}
+.parent{
+  width: 600px ;
+  height: 300px;
+  margin: 25px auto;
+  padding: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.parent div{
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(199, 22, 22);
+  color: white;
 
-div {
-  color: var(--mainColor, red);
-  margin: var(--mainPadding, 12px);
-  padding: var(--mainPadding, 12px);
-  border: 2px solid var(--mainColor, black);
 }
