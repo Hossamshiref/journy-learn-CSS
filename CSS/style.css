@@ -1,9 +1,19 @@
-p, input{
-  caret-color: red;
+*{
+  box-sizing: border-box;
 }
-a{
-pointer-events: none;
+.parent{
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: auto 90px 20% 2fr repeat(2, 1fr);
 }
-a:hover{
-  color: red;
+.parent div{
+  background-color: red;
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
