@@ -7,7 +7,11 @@
   height: 500px;
   background-color: #eee;
   display: grid;
-  grid-template-columns: auto 90px 20% 2fr repeat(2, 1fr);
+  grid-template-columns: auto 90px 20% ;
+  grid-template-rows: 100px 20% repeat(2, 1fr);
+  /*row-gap: 10px;
+  column-gap: 15px;*/
+  gap: 10px 15px;
 }
 .parent div{
   background-color: red;
