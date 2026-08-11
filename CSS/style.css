@@ -1,18 +1,9 @@
-*{
-  box-sizing: border-box;
+p, input{
+  caret-color: red;
 }
-img{
-  transition: 0.3s;
-  filter: blur(5px);
-  /*
-  filter: grayscale(100%);
-  invert: grayscale(100%);
-  */
+a{
+pointer-events: none;
 }
-img:hover{
-  filter: blur(1px);
-  /*
-  filter: grayscale(0);
-  invert: grayscale(0);
-  */
+a:hover{
+  color: red;
 }
