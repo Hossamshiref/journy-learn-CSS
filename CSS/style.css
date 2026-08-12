@@ -1,48 +1,39 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 10px;
 }
 .parent{
-  height: 100vh;
+  height: 400px;
+  width: 600px;
+  margin: 20px auto;
   background-color: #eee;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 60px auto 60px;
-  grid-template-areas: 
-  "logo . . nav nav nav nav nav nav nav"
-  "side . cont cont cont cont cont cont cont cont"
-  "foot foot foot foot foot foot foot foot foot foot";
+  gap: 10px 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
 }
-h2{
-  grid-area: logo;
+.parent div{
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
   background-color: red;
   color: white;
 }
-ul{
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  justify-content: space-evenly;
+.one{
+  grid-row: span 5;
 }
-nav{
-  display: grid;
-  grid-area: nav;
-  background-color: blue;
-  color: white;
+.four{
+  grid-column: span 4;
 }
-aside{
-  grid-area: side;
-  background-color: black;
-  color: white;
+.two{
+  grid-column: 3/5;
 }
-section{
-  grid-area: cont;
-  background-color: green;
-  color: white;
+.nine{
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
-footer{
-  grid-area: foot;
-  background-color: blueviolet;
-  color: white;
+.seven{
+  grid-row: span 2;
+  grid-column: span 2;
 }
