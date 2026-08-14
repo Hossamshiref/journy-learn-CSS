@@ -3,24 +3,27 @@
   margin: 0;
   padding: 0;
 }
-.grid {
-  background-color: #ddd;
-  padding: 20px;
-  width: 800px;
-  height: 400px;
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 15px 15px;
-  align-content: space-between;
-}
-.grid div{
-  background-color: rgb(207, 25, 101);
+.shape{
+  background-color: #c3bfbf;
+  width: 300px;
+  height: 300px;
+  margin: 15% auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.shape div{
+  background-color: red;
   color: white;
-  font-size: 20px;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   font-weight: bold;
+  /*transform: scalex(2);
+  transform: scaley(2);
+  transform: scale(-1);*/
+  transform: scale(2, 2);
 }
