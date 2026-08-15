@@ -20,9 +20,5 @@
   transition: 1s;
 }
 .shape div:hover{
-  /*transform: translate(100px, -100px);
-  transform: rotate(90deg);*/
-  -webkit-transform: translate(100px, -100px) rotate(90deg);
-  -moz-transform: translate(100px, -100px) rotate(90deg);
-  transform: translate(100px, -100px) rotate(360deg);
+  transform: skew(10deg, 10deg);
 }
