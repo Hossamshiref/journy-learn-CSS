@@ -17,7 +17,8 @@
   align-items: center;
   font-size: 30px;
   font-weight: bold;
-  /*transform-origin: center center;
-   transform-origin: right top;*/
-   transform-origin: left bottom;
+  transition: 3.5s;
+}
+.shape div:hover{
+  transform: rotate3d(1, 1, 1, 360deg);
 }
